@@ -18,7 +18,7 @@ const config = {
     datasets: [
       {
         label: "Faturamento",
-        data: [5, 10, 5, 14, 20, 15, 6, 14, 8, 12],
+        data: [10, 10, 5, 14, 20, 15, 6, 14, 8, 12],
         borderWidth: 3,
         borderColor: "#00FFFF",
         backgroundColor: "#00FFFF",

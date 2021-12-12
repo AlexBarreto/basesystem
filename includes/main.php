@@ -1,6 +1,6 @@
 <div class = "container">
         <div class = "painel">
-            <div  class = "acesso">
+            <div  id = "acesso" class = "acesso">
                 <div id = "relatorio" class = "imgAcesso"></div>
                 <p>Relatórios</p>
             </div>
@@ -14,10 +14,11 @@
             </div>
         </div><!--painel-->
         <div class = "painel-g">
-             <div>
-             <canvas id="mygrafico" width = "800" ></canvas>
-                <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js"></script>
-                <script type="text/javascript" src="../js/grafico.js"></script>
+             <div class = "bg">
+               <h3>FATURAMENTO X DESPESAS MENSAL</h3>
+                <?php
+                 include __DIR__.'/../includes/grafico.php';
+                ?>
             </div>
         </div>
 

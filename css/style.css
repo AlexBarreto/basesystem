@@ -72,7 +72,7 @@ html {
 }
 
 .menu {
-  width: 250px;
+  width: 500px;
   height: 100%;
   background-color: rgba(135, 206, 250, 0.2);
   border-radius: 5px;
@@ -137,19 +137,29 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.painel-g h3 {
+  text-align: center;
+  padding: 2rem;
 }
 
 .acesso {
   height: 150px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-left: 12px;
+  margin-left: 35px;
   background-color: rgba(135, 206, 250, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   width: 250px;
+}
+
+#acesso {
+  margin-left: 0px;
 }
 
 @media screen and (max-width: 1230px) {
@@ -311,9 +321,6 @@ html {
   #usuario {
     display: none;
   }
-  #login {
-    background: red;
-  }
 
   .buttomMenu {
     width: 75%;
@@ -354,4 +361,15 @@ html {
   background-image: url("../img/relatorio.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.bg {
+  background-color: rgba(135, 206, 250, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.bg:hover {
+  border: 4px solid #ccc;
 }
